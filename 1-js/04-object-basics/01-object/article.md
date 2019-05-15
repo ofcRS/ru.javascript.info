@@ -1,11 +1,11 @@
 
 # Objects
 
-As we know from the chapter <info:types>, there are seven data types in JavaScript. Six of them are called "primitive", because their values contain only a single thing (be it a string or a number or whatever).
+Как вы знаете из главы <info:types>, в JavaScript существует семь типов данных. Шесть из них называются "простыми", потому что они хранять только одно значение (будть то строка, или число, или еще что-то).
 
-In contrast, objects are used to store keyed collections of various data and more complex entities. In JavaScript, objects penetrate almost every aspect of the language. So we must understand them first before going in-depth anywhere else.
+Напротив, объекты позволяют хранить пары "ключ-значения" различных данных и более сложные структуры. В JavaScript объекты проникают почти во все все аспекты языка. Так что мы должны понять, что они из себя представляют перед тем, как двигаться дальше.
 
-An object can be created with figure brackets `{…}` with an optional list of *properties*. A property is a "key: value" pair, where `key` is a string (also called a "property name"), and `value` can be anything.
+Объект может быть создан с помощью фигурных скобок `{…}` со списком *свойст* внутри. Свойство - это "ключ: значение" пара, где `ключ` - это строка (или "имя свойства"), а `значением` может быть, что угодно.
 
 We can imagine an object as a cabinet with signed files. Every piece of data is stored in its file by the key. It's easy to find a file by its name or add/remove a file.
 
